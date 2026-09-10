@@ -2,9 +2,9 @@ from estruturas.nodo import NodoDuplo
 
 
 class ListaDuplamenteEncadeada:
-    """LDE genérica. Cada 'dado' guardado precisa ter atributo .id"""
+    
 
-    def _init_(self):
+    def __init__(self):
         self.inicio = None
         self.fim = None
         self.tamanho = 0
@@ -68,16 +68,15 @@ class ListaDuplamenteEncadeada:
         return resultado
 
     def para_lista_auxiliar(self):
-        """Coleção auxiliar (lista nativa) usada só para ordenar/buscar.
-        A LDE continua sendo a estrutura principal."""
+        
         return self.listar_inicio_fim()
 
-    def _iter_(self):
+    def __iter__(self):
         atual = self.inicio
         while atual is not None:
             yield atual.dado
             atual = atual.proximo
 
-    def _len_(self):
+    def __len__(self):
         return self.tamanho
     
