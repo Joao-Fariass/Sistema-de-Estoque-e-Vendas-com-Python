@@ -10,6 +10,7 @@ Integrantes: Arthur Saggin RA: 1139361
 André Alves Neto RA: 1139890
 Cassio Soder RA: 1139496
 Lucas Varal RA: 1136676
+João Isaque RA: 1139559
 Nycolas Jungbeck RA: 1139527
 
 
