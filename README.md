@@ -1,7 +1,9 @@
 
 Disciplina: ORGANIZAÇÃO E ABSTRAÇÃO NA PROGRAMAÇÃO.
 
+
 Trabalho: Sistema de estoque e vendas. 
+
 
 
 Integrantes: Arthur Saggin RA: 1139361
@@ -12,8 +14,10 @@ Nycolas Jungbeck RA: 1139527
 
 
 
+
 Descrição e execução
 Sistema de loja rodado no terminal: cadastra clientes/produtos, controla estoque, registra vendas, desfaz a última operação e busca produtos. Executa com python main.py, sem dependências externas.
+
 
 
 
@@ -22,11 +26,13 @@ main.py (menu) → services/ (regras de negócio + persistência) → estruturas
 
 
 
+
 LSE, LDE, Fila e Pilha
 LSE: guarda os clientes (cada nodo aponta só pro próximo).
 LDE: guarda os produtos (cada nodo aponta pros dois lados, permite listar do início ao fim e vice-versa).
 Fila: guarda as vendas na ordem em que aconteceram (FIFO — primeira venda registrada é a primeira da fila).
 Pilha: guarda o histórico de operações (LIFO — cada ação empilha um registro; desfazer sempre reverte a mais recente).
+
 
 
 
