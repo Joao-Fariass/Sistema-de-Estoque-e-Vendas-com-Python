@@ -3,7 +3,7 @@ from estruturas.nodo import NodoSimples
 
 class ListaSimplesmenteEncadeada:
     
-    def _init_(self):
+    def __init__(self):
         self.inicio = None
         self.tamanho = 0
 

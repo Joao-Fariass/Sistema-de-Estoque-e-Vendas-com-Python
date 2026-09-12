@@ -12,4 +12,3 @@ class Cliente:
     @staticmethod
     def from_csv_row(row):
         return Cliente(int(row[0]), row[1])
-s
